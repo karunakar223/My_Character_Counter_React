@@ -1,0 +1,85 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 40px;
+}
+
+.image {
+  height: 350px;
+  width: 350px;
+}
+
+.container {
+  width: 50%;
+  height: 90vh;
+  background-color: #ffc533;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.count-container {
+  background-color: #ffbf1f;
+  padding: 20px;
+}
+
+.value-container {
+  background-color: #0f172a;
+  min-height: 90vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.main-heading {
+  color: #ffbf1f;
+  font-family: 'Roboto';
+  font-size: 32px;
+  text-align: center;
+}
+
+.add-button {
+  color: #272c47;
+  background-color: #ffbf1f;
+  font-family: 'Roboto';
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 3px;
+  height: 45px;
+}
+
+.input-text {
+  width: 400px;
+  margin-right: 24px;
+  padding: 8px;
+  height: 45px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.li-container {
+  list-style-type: none;
+}
+
+.list-element {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 23px;
+}
